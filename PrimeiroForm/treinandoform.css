@@ -1,0 +1,101 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background:#F0EBF8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1,h2,h3,h4,h5 {
+    color: #333;
+}
+p, label {
+    color: #444;
+}
+.input{
+    padding: 10px 0px;
+    border-bottom:  1px solid #CCC;
+    border: 1px solid transparent;
+}
+input[type=text], input[type=number], input[type=date], input[type=file]{
+    width: 400px;
+}
+textarea {
+	padding: 10px 5px;
+	width: 400px;
+}
+/* Cabeçalho da pg */
+.header {
+    background-color: #673AB7;
+    padding: 20px;
+    height: 160px;
+
+}
+.header h3 {
+ color: white;
+ margin-top: 0px;
+}
+/*Cabeçalho do form */
+.form-header{ 
+    border-bottom: 1px solid #DFDFDF;
+    height: 45px;
+}
+.form-header p {
+    font: normal 18px Arial;
+    color: #673AB7; 
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 2px solid #673AB7;
+    width: 100px;
+    height: 45px;
+    margin-right: auto;
+	margin-left: auto;
+    line-height: 45px;
+    margin-top:  -15px;
+}
+
+/* Corpo do form  */
+.form-container{
+    padding: 30px;
+    background-color: #FFF;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    top: -62px;
+    position: relative;
+}
+.form-body{
+padding: 30px;
+}
+.required{
+    color: #D80835;
+}
+.box-input{
+    margin-bottom: 30px;
+}
+.block {
+	display: block;
+}
+.optional-box{
+    display: inline-block;
+    margin-right: 30px;
+}
+.optional-list{
+    padding-left: 0;
+}
+.optional-list li {
+	list-style: none;
+}
+.btn-submit{
+    background-color: #673AB7;
+    width: 150px;
+    height: 50px;
+    text-transform: uppercase;
+    color: #FFF;
+    border: 2px solid transparent;
+   transition: .5s;
+    cursor: pointer;
+}
+.btn-submit:hover{  /*honer=flutuar  */
+    background-color: #FFF;
+    color:#673AB7;
+    border-color: #673AB7;
+}
